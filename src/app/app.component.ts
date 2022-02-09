@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+import { Environment } from './environment.interface';
+
+declare let data: Environment;
+
+@Component({
+  selector: 'app-root',
+  template: '<div>{{apiUrl}}</div>',
+  styleUrls: ['./app.component.scss'],
+})
+export class AppComponent {
+  apiUrl: string = data.apiUrl;
+}
+

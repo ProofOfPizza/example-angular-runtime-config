@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  amazing-app:
+    container_name: amazing-app
+    build:
+      context: ./
+    ports:
+      - '4200:4200'
+    environment:
+      ENVIRONMENT: prod
