@@ -1,4 +1,3 @@
-
 FROM node:14-alpine as build
 
 # copy code and run build
