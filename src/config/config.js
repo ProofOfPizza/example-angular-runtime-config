@@ -1,4 +1,4 @@
-data = {
+__config = {
   apiUrl: "http://localhost",
 };
 
